@@ -33,7 +33,6 @@ console.log("Part One", findDepth(input));
 function threeMeasurementFindDepth(measurements) {
   let depthIncreases = 0;
   let previousGroup = 0;
-  debugger;
   for (let i = 0; i < measurements.length - 2; i = i + 1) {
     let currentGroup =
       measurements[i] + measurements[i + 1] + measurements[i + 2];
